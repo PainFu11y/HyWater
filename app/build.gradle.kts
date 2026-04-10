@@ -61,9 +61,9 @@ android {
     }
 }
 
-// Kotlin 2.x: set JVM target via jvmToolchain, not the deprecated kotlinOptions block
+// Match the JDK used by the Gradle daemon (toolchainVersion=21 in gradle-daemon-jvm.properties)
 kotlin {
-    jvmToolchain(11)
+    jvmToolchain(21)
 }
 
 dependencies {
