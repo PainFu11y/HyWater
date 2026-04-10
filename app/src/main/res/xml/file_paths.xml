@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Exposes files stored in the app's external cache directory for camera capture -->
+    <external-cache-path
+        name="camera_photos"
+        path="." />
+    <cache-path
+        name="camera_photos_internal"
+        path="." />
+</paths>

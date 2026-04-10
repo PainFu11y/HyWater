@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme — Material3 DayNight so Compose Material3 tokens apply -->
+    <style name="Base.Theme.HyWater" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="Theme.HyWater" parent="Base.Theme.HyWater" />
+
+    <!-- Alias used by MainActivity so the window background matches Compose surface -->
+    <style name="Theme.HyWater.NoActionBar" parent="Theme.HyWater" />
+</resources>
