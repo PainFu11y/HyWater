@@ -2,7 +2,6 @@ import java.util.Properties
 
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.hilt.android)
     alias(libs.plugins.ksp)
@@ -61,15 +60,12 @@ android {
     }
 }
 
-// Match the JDK used by the Gradle daemon (toolchainVersion=21 in gradle-daemon-jvm.properties)
-kotlin {
-    jvmToolchain(21)
-}
 
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    implementation(libs.transport.runtime)
 
     // Compose BOM — single version line manages all Compose library versions
     val composeBom = platform(libs.androidx.compose.bom)

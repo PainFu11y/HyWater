@@ -1,7 +1,7 @@
 [versions]
 agp = "9.1.0"
-kotlin = "2.0.21"
-ksp = "2.0.21-1.0.28"
+kotlin = "2.1.0"
+ksp = "2.1.0-1.0.29"
 coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -15,7 +15,7 @@ activityCompose = "1.9.3"
 navigationCompose = "2.8.4"
 
 # Hilt
-hilt = "2.51.1"
+hilt = "2.59"
 hiltNavigationCompose = "1.2.0"
 
 # Retrofit + OkHttp
@@ -24,7 +24,7 @@ okhttp = "4.12.0"
 gson = "2.11.0"
 
 # Room
-room = "2.6.1"
+room = "2.7.0"
 
 # CameraX
 camerax = "1.4.0"
@@ -46,6 +46,7 @@ coil = "2.7.0"
 
 # Permissions
 accompanistPermissions = "0.36.0"
+transportRuntime = "4.1.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -108,6 +109,7 @@ coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coi
 
 # Accompanist Permissions
 accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanistPermissions" }
+transport-runtime = { group = "com.google.android.datatransport", name = "transport-runtime", version.ref = "transportRuntime" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
